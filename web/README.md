@@ -1,0 +1,1 @@
+The existing React frontend in ../frontend is the web client. RescueRoutes.tsx integrates the independent Python rescue core into Simulation → Rescue route lab. FastAPI remains in ../backend/main.py and mounts core/api.py. This directory records the web entry point without duplicating the existing application.
