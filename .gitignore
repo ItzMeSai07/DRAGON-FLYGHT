@@ -11,3 +11,28 @@ data/cache/
 !.env.example
 .DS_Store
 *.tsbuildinfo
+# Secrets
+.env
+.env.*
+!.env.example
+
+# Dependencies
+node_modules/
+.venv/
+venv/
+
+# Python
+__pycache__/
+*.pyc
+
+# Builds
+dist/
+build/
+.vite/
+
+# Mac
+.DS_Store
+
+# Logs
+*.log
+
